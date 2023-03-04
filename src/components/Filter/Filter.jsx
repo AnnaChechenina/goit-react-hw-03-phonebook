@@ -9,6 +9,7 @@ function Filter({ filter, changeFilter }) {
         className={css.input}
         type="text"
         value={filter}
+        placeholder="Search..."
         onChange={changeFilter}
       />
     </label>
